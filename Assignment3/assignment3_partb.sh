@@ -1,11 +1,11 @@
 #!/bin/bash
 # Name: Lucas Vandermaarel
 # Date: June 18, 2025
-# Description: The implementation of two functions. One to convert Celcius temperatures to fahrenheit and one to convert miles to kilometers.
+# Description: The implementation of two functions. One to convert Celsius temperatures to fahrenheit and one to convert miles to kilometers.
 
 # Celcius to Fahrenheit
 function CtoF() {
-  read -p "Please enter a temperature in Celcius to convert to Fahrenheit: " C
+  read -p "Please enter a temperature in Celsius to convert to Fahrenheit: " C
 
   F=$((($C * 9 / 5) + 32))
   echo "Fahrenheit: $F"
@@ -24,7 +24,7 @@ function milesToKm() {
 # provide menu
 function menu() {
   echo "Menu:"
-  echo "1. Convert a Celcius temperature to Fahrenheit"
+  echo "1. Convert a Celsius temperature to Fahrenheit"
   echo "2. Convert miles to kilometers"
   echo "3. Exit"
 
