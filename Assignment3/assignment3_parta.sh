@@ -12,7 +12,6 @@ function menu() {
   echo "4. Check if the input is a string, number, or special characters"
   echo "5. Exit"
 
-  switch=$(echo -e "1\n2\n3\n4\n5")
   echo "Please select an option (1-5):"
   read -r choice
   case $choice in
