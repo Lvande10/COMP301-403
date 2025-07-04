@@ -12,6 +12,7 @@ mkdir $1
 
 # copy index.html in our directory to the new directory
 cp /home/lucas/Documents/index.html /var/www/html/$1/index.html
+cp /home/lucas/Documents/chickens.jpg /var/www/html/$1/chickens.jpg
 
 chmod +x /var/www/html/$1/index.html
 
