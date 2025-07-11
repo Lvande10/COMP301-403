@@ -52,7 +52,6 @@ int main ()
 {
   int cor1, cor2, cor3, cor4, cor5;
   int avg, min, max;
-  char avgChar, minChar, maxChar;
 
   printf("\n Enter the course1: ");
   scanf("%d", &cor1);
