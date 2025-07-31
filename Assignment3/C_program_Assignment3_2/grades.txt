@@ -1,0 +1,6 @@
+
+ This is assignment 3.2 (C Programming Assignment) - Lucas Vandermaarel - 301482828
+ The grades entered are: F (40), F (50), A (100), D (60), C (70)
+ The average of the grades is D (64)
+ The minimum of the grades is F (40)
+ The maximum of the grades is A (100)
